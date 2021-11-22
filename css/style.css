@@ -1,0 +1,605 @@
+/* css tag selector */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    font-size: 72px!important;
+}
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+h3 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.sub-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.text-main-button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navigation {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+li {
+    margin-right: 3em;
+}
+
+.main-call-to-action {
+    background-image: url(/assets/Rectangle.png), url(/assets/main-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    object-fit: contain;
+    height: 860px;
+    position: relative;
+    overflow: hidden;
+}
+
+.navbar {
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 0.5)!important;
+}
+
+nav a {
+    color: white!important;
+}
+
+.navbar-logo {
+    padding-left: 120px!important;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.navbar-main {
+    margin-left: 150px!important;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.navbar-registrasi {
+    margin-left: 300px!important;
+    font-family: 'Open Sans';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.container {
+    text-align: center;
+    color: white;
+}
+
+main h1 {
+    margin-top: 200px;
+    margin-bottom: 50px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: bold;
+}
+
+main h3 {
+    letter-spacing: 2px;
+}
+
+.btn-warning {
+    padding-left: 0px;
+    padding-top: 47%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    width: 250px;
+    height: 50px;
+
+}
+
+.scroll-down-button {
+    position: absolute;
+    bottom: 0px;
+    left: 47%;
+}
+
+.scroll-down-button a {
+    color: white;
+    font-size: 12px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    line-height: 22px;
+    text-align: justify;
+    margin-bottom: 80%;
+}
+
+.scroll-down {
+    margin-top: -120px;
+}
+  
+/* -------------------------PAGE 2----------------------------------------------------------*/
+
+.about-gallery {
+    background-image: url(/assets/the-games-bg-edited.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    object-fit: contain;
+    height: 860px;
+    position: relative;
+    overflow: hidden;
+}
+
+.page2-col-h3 {
+    font-family: Arial!important;
+    font-size: 24px;
+    font-style: normal;
+    letter-spacing: 2px;
+    text-align: left;
+    width: 500px!important;
+}
+
+.page2-col-h1 {
+    font-family: Arial;
+    font-size: 52px!important;
+    font-style: normal;
+    letter-spacing: 2px;
+    width: 400px!important;
+}
+
+.container-2 {
+    margin-top: 50px;
+    margin-left: 150px;
+    color: white;
+    column-gap: 1px;
+    margin-right: 100px;
+}
+
+.col-text-top {
+    align-self: start;
+}
+
+.col-span {
+    justify-self: flex-start;
+}
+
+.carousel-inner img {
+    position: relative;
+    float: right;
+    width: 700px;
+    height: 400px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(/assets/switch.svg)!important;
+    margin-left: -140px;
+}
+
+.carousel-control-next-icon {
+    background-image: url(/assets/switch-next.svg)!important;
+    margin-right: -140px;
+}
+
+.carousel-indicators li {
+    padding: 5px 5px;
+    margin: 3px;
+}
+
+.list-page2 {
+  margin-right: 30px!important;   
+}
+
+/* -------------------------PAGE 3----------------------------------------------------------*/
+.game-features {
+    background-image: url("/assets/features-edited.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    object-fit: contain;
+    height: 860px;
+    position: relative;
+    overflow: hidden;
+}
+
+.container-3 {
+    display: block;
+    margin-top: 200px;
+    margin-left: 720px;
+}
+
+.text-features-h3 {
+    font-family: Arial;
+    font-style: normal;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.text-features-h1 {
+    font-family: Arial;
+    font-style: normal;
+    font-size: 56px;
+    letter-spacing: 2px;
+}
+
+
+.orange-text {
+    font-family: Arial;
+    font-size: 25px;
+    color: #FFB548;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 50px;
+}
+
+.white-circle {
+    border: 1px;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: -30px;
+}
+
+.vertical-line {
+    border-left: 2px solid white;
+    height: 155px;
+    position: absolute;
+    margin-left: -23px;
+}
+
+.black-circle {
+    border: 1px solid white;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: -30px;
+    margin-top: 155px;
+}
+
+.black-circle2 {
+    border: 1px solid white;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: -30px;
+    margin-top: 245px;
+}
+
+.desc-text {
+    width: 350px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+/* -------------------------PAGE 4----------------------------------------------------------*/
+.sys-req {
+    margin: 0px;
+    border: 0px;
+    background-image: url("/assets/Rectangle-systemreq.png"), url(/assets/requirements.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    object-fit: contain;
+    height: 860px;
+    position: relative;
+    overflow: hidden;
+}
+
+.grad-background {
+    object-fit: contain;
+    margin: -12px;
+    border: 0px;
+}
+
+.container-4 {
+    position: relative;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.table-title {
+    font-size: 24px;
+    color: #FFB548;
+}
+
+.sys-req-h3 {
+    text-align: center;
+}
+
+.sys-req-h1 {
+    width: 30%;
+    margin-bottom: 5%;
+}
+
+
+/* -------------------------PAGE 5----------------------------------------------------------*/
+.press-quotes {
+    background-image: url("/assets/top-score-bg.png") , url("/assets/bg-image-3-edited.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    object-fit: contain;
+    height: 860px;
+    position: relative;
+    overflow: hidden;
+  }
+
+.container-5 {
+    margin: 80px;
+}
+
+.img-card {
+    width: 75px;
+    height: 75px;
+    margin: 20px;
+    z-index: 2;
+
+}
+
+.card {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.08)!important;
+    border-radius: 10px!important;  
+    width: 380px;
+    height: 180px;
+}
+
+.img-circle {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    z-index: 1;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.card-center {
+    float: left;
+}
+
+.card-right {
+    float: right;
+}
+
+.card-twitter {
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 340px;
+}
+
+.card-title {
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 120px;
+    font-family: Arial;
+    font-size: 24px;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+
+.card-work {
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 120px;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    color: white;
+}
+
+.card-text {
+    position: absolute;
+    margin-top: -17px;
+    text-align: start;
+    width: 280px;
+    color: white;
+}
+
+.card-date {
+    position: absolute;
+    margin-top: 25px;
+}
+
+
+.desc-quotes {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    width: 380px;
+    text-align: left;
+}
+
+
+.h1-quotes {
+    float: left;
+    padding-left: 70px;
+    margin-top: -200px;
+}
+
+.button-quotes {
+    position: absolute;
+    margin-top: 30px;
+    width: 250px;
+    height: 50px;
+}
+
+/* -------------------------PAGE 6----------------------------------------------------------*/
+.subcribe-footer {
+    background-image: url("/assets/Rectangle\ 4.3.png") , url("/assets/Rectangle\ 4.2.png") , url("/assets/bg\ image\ 5.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    object-fit: contain;
+    height: 860px;
+    position: relative;
+    overflow: hidden;
+  }
+
+.subs-img1 {
+    position: absolute;
+    width: 350px;
+    height: 600px;
+    margin-left: 150px;
+    margin-top: 50px;
+    z-index: 1;
+}
+
+.subs-img2{
+    position: absolute;
+    width: 350px;
+    height: 600px;
+    margin-left: 150px;
+    margin-top: 50px;
+    z-index: 2;
+}
+
+.col h3 {
+    margin-top: 150px;
+    letter-spacing: 2px;
+    width: 200px;
+    margin-left: -80px;
+
+}
+
+.col h1 {
+    margin-top: 30px;
+    letter-spacing: 3px;
+    margin-left: -80px;
+}
+
+.subscribe-desc {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    text-align: left;
+    width: 620px;
+    margin-left: -80px;
+}
+
+.subscribe-form {
+    margin-left: -80px;
+    width: 420px;
+}
+
+.form-control {
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.08)!important;
+    border: 1px solid rgba(255, 255, 255, 0.08)!important;
+    height: 50px!important;
+}
+
+.form-text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-size: 14px;
+    color: white;
+    margin-top: -50px!important;
+    position: absolute;
+    margin-left: 12px;
+}
+
+::placeholder {
+    position: absolute;
+    color: #FFB548!important;
+    padding-top: 10px;
+    opacity: 1; 
+    font-family: Open Sans;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.button-subscribe {
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 430px;
+}
+
+.subscribe-nav {
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    letter-spacing: 0.1em;
+    text-align: right;
+    text-transform: uppercase;
+    margin-left: 250px;
+}
+
+.nav-link-subs{
+    margin-top: 100px;
+    margin-right: 42px;
+}
+
+.horizontal-line {
+    margin-top: 20px;
+    border: 1px solid white;
+    width: 1150px;
+    position: absolute;
+    margin-left: 120px;
+}
+
+.copy-right {
+    margin-left: 120px;
+    margin-top: 40px;
+}
+
+.term-service {
+    position: absolute;
+    margin-left: 950px;
+    padding-top: 40px;
+}
+
+.qursor1 {
+    position: absolute;
+    margin-top: -75px;
+    margin-left: 197px;
+
+}
+
+.qursor2 {
+    position: absolute;
+    margin-top: -83px;
+    margin-left: 195px;
+
+}
